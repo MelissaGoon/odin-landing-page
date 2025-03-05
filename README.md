@@ -1,0 +1,1 @@
+This project is the final activity in the Odin Project's CSS Fundamentals module. The aim is to create a simple landing page based on all the CSS and HTML fundamentals learnt so far.
