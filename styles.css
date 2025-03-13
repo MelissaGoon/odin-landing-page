@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     background-color: white;
     margin: 0;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto",sans-serif;
 }
 
 ul{
@@ -23,7 +23,8 @@ a {
 h1 {
     font-size: 48px;
     color: aliceblue;
-    font-weight: 900;
+    font-weight:bold;
+    margin: 0%;
 }
 
 .header-logo {
@@ -31,23 +32,134 @@ h1 {
     font-weight:bolder;
 }
 
-.header, .first-banner {
-    background-color:#22255a ;
+.header {
+    background-color:#010e3c ;
 }
 
 .header {
     display: flex;
     padding: 16px;
-
     color: aliceblue;
     justify-content: space-between;
     align-items: center;
 }
 
+.first-banner, .second-banner, .fourth-banner {
+    padding: 100px 150px;
+}
+
 .first-banner {
+    background: rgb(64,0,255);
+    background: linear-gradient(0deg, rgba(64,0,255,1) 0%, rgba(1,14,60,1) 46%);
     display: flex;
-    padding: 20px;
+    justify-content: center;
+    color: aliceblue;
 
 }
 
+.placeholder-first{
+    background-color: grey;
+    flex:none;
+    margin: 30px;
+    box-sizing: border-box;
+    width:450px;
+    height: 200px;
+    padding: 100px;
+}
 
+.signup-box{
+    margin: 30px;
+}
+
+.signup-box p{
+    color: rgb(192, 220, 244);
+   
+}
+
+.signup-button, .sign-up-button-2 {
+    background-color: rgb(221, 255, 0);
+    border: none;
+    border-radius: 10px;
+    color: #010e3c;
+    padding: 10px 20px;
+}
+
+.second-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.info-gallery{
+    display: flex;
+    margin-top: 30px;
+    gap: 50px;
+}
+
+.info-card {
+    font-size: smaller;
+    color: #5c5c5c;
+    text-align: center;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.placeholder-second{
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(64, 0, 255);
+    border-radius: 5px;
+}
+
+.third-banner {
+    color: aliceblue;
+    background-color: rgb(64, 0, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 300px ;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight:lighter;
+    font-style: italic;
+    margin: 30px;
+    
+}
+
+.attribution {
+    margin-right: 30px;
+    margin-left: auto;
+    font-weight: bold;
+}
+
+.call-box {
+    background-color:rgb(221, 255, 0) ;
+    padding: 30px 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call-to-action-text h3, .call-to-action-text p{
+    margin: 5px;
+}
+
+.call-to-action-text p {
+    font-size: smaller;
+}
+
+.call-to-action-text {
+    padding: 10px;
+}
+.sign-up-button-2 {
+    border: 2px solid  rgb(64, 0, 255);
+    margin: 20px;
+}
